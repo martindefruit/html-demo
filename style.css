@@ -1,0 +1,110 @@
+/* TODO: design your profile with CSS */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:400,700");
+
+/* --- Fonts --- */
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  margin: 0;
+  background: #F4F4F4;
+}
+h1, h2, h3 {
+  font-family: "Poppins", "sans-serif";
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+#myVideo {
+  width: 100%;
+}
+
+.screen-texture {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  opacity: .8;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.b-block {
+  height: 150px;
+  background: #3c3c3c;
+  color: white;
+  padding: 0 74px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.b-block p {
+  margin: 0;
+}
+
+.test-text {
+   position: fixed;
+    top: 330px;
+    left: 200px;
+    width: 750px;
+    z-index: 15;
+}
+
+.test-text.b {
+    position: fixed;
+    top: 270px;
+    left: 200px;
+    width: 830px;
+    z-index: 15;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 30px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  z-index: 15;
+}
+
+.navbar ul {
+  list-style: none;
+  display: inline-flex;
+}
+
+.navbar img {
+    height: 104px;
+    margin-top: -32px;
+}
+
+.navbar li {
+  opacity: .4;
+  margin-right: 34px;
+}
+
+li.active {
+  opacity: 1;
+  border-bottom: solid 2px #38b750;
+}
+
+.c {
+  width: 640px !important;
+}
+
+.o2 {
+  height: 530px;
+  overflow: hidden;
+}
+
+.o2 .screen-texture {
+  height: 530px !important;
+}
